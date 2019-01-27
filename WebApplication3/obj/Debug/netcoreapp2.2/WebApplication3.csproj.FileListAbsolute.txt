@@ -224,3 +224,7 @@ C:\Users\amano\Documents\GitHub\DigiKhmer\WebApplication3\obj\Debug\netcoreapp2.
 C:\Users\amano\Documents\GitHub\DigiKhmer\WebApplication3\obj\Debug\netcoreapp2.2\WebApplication3.dll
 C:\Users\amano\Documents\GitHub\DigiKhmer\WebApplication3\obj\Debug\netcoreapp2.2\WebApplication3.pdb
 C:\Users\amano\Documents\GitHub\DigiKhmer\WebApplication3\obj\Debug\netcoreapp2.2\WebApplication3.csproj.CopyComplete
+C:\Users\amano\Documents\GitHub\DigiKhmer\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Mucks\Details2.g.cshtml.cs
+C:\Users\amano\Documents\GitHub\DigiKhmer\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Mucks\Details3.g.cshtml.cs
+C:\Users\amano\Documents\GitHub\DigiKhmer\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Mucks\Quiz.g.cshtml.cs
+C:\Users\amano\Documents\GitHub\DigiKhmer\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Home\Revenge.g.cshtml.cs

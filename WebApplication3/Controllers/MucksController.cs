@@ -42,6 +42,60 @@ namespace WebApplication3.Controllers
             return View(muck);
         }
 
+        // GET: Mucks/Details/5
+        public async Task<IActionResult> Details2(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var muck = await _context.Muck
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (muck == null)
+            {
+                return NotFound();
+            }
+
+            return View(muck);
+        }
+
+        // GET: Mucks/Details/5
+        public async Task<IActionResult> Details3(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var muck = await _context.Muck
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (muck == null)
+            {
+                return NotFound();
+            }
+
+            return View(muck);
+        }
+
+        // GET: Mucks/Details/5
+        public async Task<IActionResult> Quiz(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var muck = await _context.Muck
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (muck == null)
+            {
+                return NotFound();
+            }
+
+            return View(muck);
+        }
+
         // GET: Mucks/Create
         public IActionResult Create()
         {

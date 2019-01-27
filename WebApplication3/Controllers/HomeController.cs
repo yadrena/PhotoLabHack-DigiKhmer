@@ -19,6 +19,12 @@ namespace WebApplication3.Controllers
             return View();
         }
 
+        [Authorize]
+        public IActionResult Revenge()
+        {
+            return View();
+        }
+
 
         ////[HttpPost("UploadFiles")]
         //[HttpPost]

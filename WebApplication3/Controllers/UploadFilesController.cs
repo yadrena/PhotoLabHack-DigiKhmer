@@ -42,8 +42,8 @@ namespace WebApplication3.Controllers
 
             // full path to file in temp location
 
-            
-            if(1==files.Count)
+
+            if (1 == files.Count)
             {
                 var formFile = files[0];
 
@@ -119,10 +119,17 @@ namespace WebApplication3.Controllers
                     _context.SaveChanges();
                 }
 
-                return Ok(new { count = files.Count, size, filePath, uploadedImageUrl, transformedImageUrl, bluredImageUrl, insertedId = muck.Id });
-            }
 
-            return Ok(new { count = 0} );
+                return RedirectToAction("Details", "Mucks", new { id = muck.Id });
+
+                //Response.Redirect("~/Mucks/Details/" + muck.Id,);
+
+                //return Ok(new { count = files.Count, size, filePath, uploadedImageUrl, transformedImageUrl, bluredImageUrl, insertedId = muck.Id });
+            }
+            else
+            {
+                return Ok(new { count = 0 });
+            }
             // process uploaded files
             // Don't rely on or trust the FileName property without validation.
         }

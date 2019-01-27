@@ -1,0 +1,33 @@
+﻿@model WebApplication3.Models.Muck
+
+@{
+    ViewData["Title"] = "Details2";
+}
+
+<table cellpadding="0" cellspacing="0">
+    <tbody>
+        <tr>
+            <td valign="top">
+                <div>
+                    <dl class="row">
+
+                        <dd class="col-sm-10">
+                            @*<img src="@Html.DisplayFor(model => model.ConvertedImageURL)" />*@
+                            <img width="500" src="~/images/kulagin_zombie.jpg" />
+                        </dd>
+
+                        <dd class="col-sm-10">
+                            &nbsp;
+                        </dd>
+                    </dl>
+                </div>
+            </td>
+            <td valign="top">
+                <h1>ПРИМЕНИТЬ РАЗМЫТИЕ</h1>
+                <a class="btn btn-primary" role="button" href="/Mucks/Details3/13">Применить</a>
+                @*<button type="button" class="btn btn-primary">Primary</button>*@
+            </td>
+        </tr>
+    </tbody>
+</table>
+            
